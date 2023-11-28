@@ -1,0 +1,81 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #2f6ddf, #912e54);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #particles-js{
+    height: 100hv;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para el contenedor de botones */
+  .input-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    align-items: center; 
+  }
+  
+  button {
+    padding: 28px 50px;
+    background-image: -webkit-linear-gradient(top, #cbfbff, #ef96c6);
+    color: #000;
+    font-size: 16px;
+    border: solid;
+    cursor: pointer;
+    text-align: center; 
+  }
+  
+  #buttons {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+  }
+  
+  button:hover {
+    background-image: linear-gradient(135deg, #ead6ef, #a0f1ea);
+  }
+  
+  /* Estilos para el contenedor de resultados */
+  .output-container {
+    margin: 20px;
+  }
+  
+  #muneco {
+    width: 50px;
+    height: 100px;
+    background-color: #0a0a0a; /* Color del cuerpo del muñeco */
+    position: absolute;
+    bottom: 0; /* Lo coloca en la parte inferior de la ventana */
+    transition: transform 0.5s ease-in-out; /* Para animar la transformación */
+  }
+  
